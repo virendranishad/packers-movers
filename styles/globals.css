@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap'); */
+
+html,
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.accordion_item {
+  border: 0;
+  overflow: hidden !important;
+  background: #302c77 !important;
+  border-radius: 15px !important;
+  margin-bottom: 15px !important;
+
+}
+
+.accordion-button p {
+  color: #fff;
+}
+
+.accordion-button {
+  background-color: transparent;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+
+
+}
+
+.accordion-button::after {
+  width: 20px;
+  height: 20px;
+  background-image: url(../public/images/plus.svg) !important;
+  background-size: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: transparent;
+  box-shadow: unset !important;
+
+}
+
+.accordion-button ::after {
+  background-image: url(../public/images/minus.svg) !important;
+}
+
+@media(max-width:568px) {
+  .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+} */

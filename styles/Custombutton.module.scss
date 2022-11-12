@@ -1,0 +1,17 @@
+.common_btn {
+    background-color: #af5d1b;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 28px 14px 28px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+
+    &:hover {
+        background-color: #f3903f;
+        color: #fff;
+    }
+
+}

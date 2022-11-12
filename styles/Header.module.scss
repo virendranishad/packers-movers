@@ -1,0 +1,108 @@
+nav.header {
+    background: #f7f7f7 !important;
+    padding: 5px 0;
+    box-shadow: 0 0 3px #302c77;
+}
+
+.HeaderStyle {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+}
+
+.top_header a {
+    text-decoration: none;
+}
+
+.top_header {
+    width: 100%;
+    padding: 13px 0;
+    background: #302c77;
+
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_links {
+    ul {
+        display: flex;
+        margin-bottom: 0;
+        padding-left: 0;
+
+        @media(max-width:767px) {
+            flex-direction: column;
+
+        }
+
+        li {
+            list-style: none;
+            margin-right: 10px;
+
+            a {
+                margin-right: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                text-decoration: none;
+
+                @media(max-width:767px) {
+                    justify-content: flex-start;
+                    margin-bottom: 12px;
+                }
+
+                span {
+                    background: #fff;
+                    border-radius: 100%;
+                    padding: 5px 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 10px;
+                }
+            }
+
+            box-icon {
+                fill: #262262;
+
+            }
+        }
+    }
+}
+
+.header {
+    a {
+        margin-right: 20px;
+        color: #000;
+        cursor: pointer;
+        border-bottom: 3px solid transparent;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            border-bottom: 3px solid #262262;
+            color: #262262 !important;
+        }
+    }
+}
+
+.logo {
+    max-width: 150px;
+    height: 80px;
+    object-fit: contain;
+
+    @media (max-width:767px) {
+        max-width: 90px;
+        height: auto;
+    }
+}
+
+.navbar-expand-lg .navbar-collapse {
+    @media (min-width: 992px) {
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,58 @@
+.faqAccordian {
+  .accordion_item {
+    border: 0;
+    overflow: hidden;
+    background: #302c77;
+    border-radius: 15px !important;
+    margin-bottom: 15px;
+
+    p {
+      color: #fff;
+    }
+  }
+
+  .accordion-button {
+    background-color: transparent;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+
+    @media(max-width:568px) {
+      font-size: 18px;
+      font-weight: 500;
+
+    }
+
+    &::after {
+      width: 20px;
+      height: 20px;
+      background-image: url(../public/images/plus.svg);
+      background-size: 20px;
+    }
+
+    &:not(.collapsed) {
+      color: #fff;
+      background-color: transparent;
+      box-shadow: unset;
+
+      &::after {
+        background-image: url(../public/images/minus.svg);
+      }
+    }
+
+    &:focus {
+      box-shadow: unset;
+    }
+  }
+
+  .accordion-body {
+    padding: 25px 30px;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #333;
+    background: #fff;
+  }
+} 
